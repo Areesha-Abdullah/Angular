@@ -1,0 +1,8 @@
+<div class="search-container">
+    <span>
+        Search:
+    </span>
+    <!-- //two way data binding -->
+ 
+  <input type="text"  [(ngModel)] = "searchedText" (input) = "onSearchTextTyped()">
+</div>
